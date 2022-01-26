@@ -2452,7 +2452,7 @@
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
                               l = "EEEEE ".concat(s);
-                            (l += " ".concat(n ? t : "X", "/").concat(6)),
+                            (l += " ".concat(n ? t : "E", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
                             return (
@@ -2487,13 +2487,13 @@
                           }),
                           function () {
                             e.gameApp.addToast(
-                              "Copied results to clipboard",
+                              "Eeeeee eeeeeee ee eeeeeeeee",
                               2e3,
                               !0
                             );
                           },
                           function () {
-                            e.gameApp.addToast("Share failed", 2e3, !0);
+                            e.gameApp.addToast("Eeeee eeeeee", 2e3, !0);
                           }
                         );
                       });
